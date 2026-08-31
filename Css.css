@@ -1,0 +1,343 @@
+header {
+  background-color: #1F2937;
+  /* لون خالص */
+  min-height: 100px;
+  padding: 300px
+}
+
+body {
+  margin: 0;
+  padding: 500;
+}
+
+.menu {
+  /*هاي اذا نريد نعدل اللست بحد ذاتها*/
+  position: absolute;
+  top: 10px;
+  /* المسافة من الأعلى */
+  right: 400px;
+  /* المسافة من اليمين */
+
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+
+}
+
+.menu li {
+  /*عاي اذا نريد نعدل العناصر مال لست*/
+  padding: 1px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* نوع الخط */
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  list-style: none;
+}
+
+.menu li a {
+  /*هاي اذا نريد نعدل الروابط*/
+  color: #E5E7EB;
+  /* لون الرابط */
+  text-decoration: none;
+}
+
+.header_logo {
+
+  position: absolute;
+  top: 10px;
+  /* المسافة من الأعلى */
+  left: 400px;
+  /* المسافة من اليسار */
+
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+
+}
+
+
+.header_logo P {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* نوع الخط */
+  font-weight: bold;
+  flex: flex;
+  padding: 0;
+  margin: 0;
+  left: 10px;
+
+}
+
+
+.awosme {
+  position: absolute;
+  top: 150px;
+  /* المسافة من الأعلى */
+  left: 390px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+}
+
+.awosme p {
+  color: #F9FAF8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+
+.under_awosme {
+  position: absolute;
+  top: 310px;
+  left: 390px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+
+.under_awosme p {
+  color: #F9FAF8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+}
+
+
+.box {
+  position: absolute;
+  top: 150px;
+  right: 280px;
+  background: #6B7280;
+  ;
+  display: flex;
+  padding: 50px;
+  height: 240px;
+  width: 500px;
+}
+
+.box p {
+  color: #F9FAF8;
+  font-size: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 100px;
+  margin-left: 60px;
+
+
+}
+
+.signup-btn {
+  margin-top: 150px;
+  margin-left: 90px;
+  background-color: #1d4ed8;
+  /* أزرق */
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  /* الزوايا الدائرية */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+}
+
+.signup-btn:hover {
+  background-color: #1e40af;
+  /* يغمق لما تمر الماوس */
+  transform: scale(1.05);
+  /* يكبر شوي */
+}
+
+
+.second_section {
+  min-height: 400px;
+  padding: 80px 50px;
+  background: rgb (255, 255, 255);
+  text-align: center;
+}
+
+
+.second_section h2 {
+  color: #1F2937;
+  font-size: 36px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+
+.items-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.item-box {
+  display: flex;
+  flex-direction: column;
+  /* يخلي المربع فوق والنص تحته */
+  align-items: center;
+  /* يوسّطهم بالنص */
+  gap: 10px;
+  /* مسافة بسيطة بين المربع والنص */
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  border: 4px solid #3882f6;
+}
+
+.item-box p {
+  color: #1F2937;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+}
+
+
+.third_section {
+  min-height: 400px;
+  padding: 100px 0;
+  background: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  /* العناصر ستكون صفًا أفقيًا */
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+
+.quo_container {
+  padding: 0;
+  margin: 0;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.third_section p {
+  font-size: 30px;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #1f2937;
+  line-height: 1.5;
+}
+
+.cite_container {
+  width: 40%;
+  display: flex;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+cite {
+  font-size: 25px;
+  font-weight: bold;
+  /* لجعله أغمق قليلاً */
+}
+
+
+.forth_section {
+  min-height: 300px;
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.blue_container {
+  background-color: #3882f6;
+  justify-content: center;
+  min-height: 160px;
+  min-width: 1000px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_container {
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+
+}
+
+.text_container p1 {
+
+  font-size: 30px;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffff;
+  font-weight: 650;
+  /* line-height: 1.5;*/
+
+}
+
+.text_container p2 {
+
+  font-size: 15px;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #ffffff;
+ 
+
+}
+
+.signup-btn2 {
+  margin-top: 10px;
+  margin-left: 100px;
+  background-color: #3882f6;
+  /* أزرق */
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  /* الزوايا الدائرية */
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  border: 3px solid white;
+
+}
+
+.signup-btn2:hover {
+  background-color: #1e40af;
+  /* يغمق لما تمر الماوس */
+  transform: scale(1.05);
+  /* يكبر شوي */
+}
+
+footer {
+min-height: 90px;
+background-color: #1F2937;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+footer p{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: #f9f7f7;
+font-size: 17px;
+}
